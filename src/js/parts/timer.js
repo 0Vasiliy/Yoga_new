@@ -1,5 +1,5 @@
 function timer(){
-    let deadline = '2022-09-19';
+    let deadline = '2023-05-30';
 
     function getTimeRemaining(endtime) {                     // Функция определяет остаток времени
         let t = Date.parse(endtime) - Date.parse(new Date()),
