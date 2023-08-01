@@ -1,2 +1,2 @@
 
-Yoga_new Project HTML,CSS,JS,JQuery
+Yoga_new Project HTML,CSS,JS
