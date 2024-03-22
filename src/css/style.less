@@ -36,10 +36,9 @@ a {
 }
 
 header {
-	width: 100%;
+	width: 100vw;
 	height:60px;
 	position: fixed;
-	top:0;
 	background-color: rgba(0,0,0,.4);
 	z-index: 10;
 	ul {
@@ -72,13 +71,14 @@ header {
 		}
 	}
 }
+
 .main {
 	height: 650px;
 	width: 100%;
 	background: url(../img/bg.jpg) center no-repeat;
 	background-size: cover;
 	&-block {
-		width: 750px;
+		max-width: 750px;
 		min-height: 300px;
 		border: 6px solid @main-color;
 		background-color: rgba(0,0,0,.4);
