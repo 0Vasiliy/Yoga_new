@@ -617,3 +617,233 @@ header ul li:before {
 .overlay .popup-form__btn:hover {
   box-shadow: 0 0 10px #c78030;
 }
+
+
+@media (max-width: 600px) {
+  .main-block {
+    margin-bottom: 30px;
+    min-height: 300px;
+  }
+  .main-block-link{
+    font-size: 16px;
+  }
+  .main-block-title{
+    font-size: 36px;
+  }
+  .main-block-descr{
+    font-size: 16px;
+  }
+  header a{
+    font-size: 14px;
+  }
+}
+@media (max-width: 1200px){
+  .contact-img{
+    display: none;
+  }
+  .content .info-header-tab{
+    font-size: 16px;
+  }
+  .content .contact-form{
+    width: 100%;
+  }
+}
+@media (max-width: 900px){
+  .content .info-tabcontent{
+    flex-direction: column;
+  }
+  .content .info-tabcontent .description{
+    width: 100%;
+  }
+  .content .info-tabcontent .description-text{
+    line-height: 21px;
+    font-size: 12px;
+    padding-right: 0;
+  } 
+  .content .info-tabcontent .photo {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  } 
+  .content .timer-numbers{
+    font-size: 50px;
+  }
+  .overlay .popup-form{
+    padding: 15px 30px 20px 30px;
+  }
+  .overlay .popup {
+    max-width: 500px;
+    top: 100px;
+  }
+  .overlay .popup-title{
+    font-size: 16px;
+  }
+  .overlay .popup-form__label{
+    font-size: 16px;
+  }
+  .overlay .popup-form__input{
+    font-size: 14px;
+    max-width: 180px;
+  }
+  .overlay .popup-form__btn{
+    margin-top: 30px;
+    max-width: 200px;
+    font-size: 14px;
+    margin-left: 17%;
+  }
+  .content .counter-title{
+    font-size: 24px;
+  }
+ .content .counter-block-option{
+  font-size: 16px;
+ }
+ .content .counter-block select{
+  max-width: 140px;
+ }
+ .content .counter-total{
+  font-size: 24px;
+ }
+ .content .counter-total span{
+  font-size: 24px;
+ }
+ .content footer .social .social-block{
+  width: 60px;
+  height: 60px;
+ }
+}
+@media (max-width: 650px){
+  .overlay .popup {
+    max-width: 300px;
+  }
+  .overlay .popup-title{
+    font-size: 14px;
+  }
+  .overlay .popup-form__label{
+    font-size: 14px;
+  }
+  .overlay .popup-form__input{
+    font-size: 12px;
+    max-width: 150px;
+    margin-left: 19%;
+  }
+  .overlay .popup-form__btn{
+    max-width: 150px;
+    font-size: 12px;
+    margin-left: 19%;
+  }
+  .overlay .popup-form-header  {
+    font-size: 24px ;
+  }
+  .content .contact-form-title{
+    font-size: 18px;
+  }
+}
+@media (max-width: 550px){
+  .content .counter-title{
+    font-size: 18px;
+  }
+ .content .counter-block-option{
+  font-size: 14px;
+ }
+ .content .counter-block select{
+  max-width: 78px;
+ }
+ .content .counter-total{
+  font-size: 18px;
+ }
+ .content .counter-total span{
+  font-size: 18px;
+ }
+}
+@media (max-width: 500px){
+  .content .info-header{
+   flex-direction: column;
+   font-size: 24px;
+  } 
+  .content .info-header-tab{
+    font-size: 12px;
+  }
+  .content .info-tabcontent .description-title{
+    font-size: 24px;
+  }
+  .content .timer-title{
+    font-size: 24px;
+  }
+  .content .timer-title{
+    font-size: 16px;
+  }
+  .content .more{
+    max-width: 200px;
+    font-size: 14px;
+  }
+  .content .timer-numbers{
+    font-size: 30px;
+  }
+  .content .slider-title{
+    font-size: 16px;
+  }
+  .content .slider-dots .dot-active{
+    width: 10px;
+    height: 10px;
+  }
+  .content .slider-dots .dot{
+    width: 10px;
+    height: 10px;
+  }
+  .overlay .popup {
+    max-width: 250px;
+  }
+  .overlay .popup-title{
+    font-size: 12px;
+  }
+  .overlay .popup-form__label{
+    font-size: 12px;
+  }
+  .overlay .popup-form__input{
+    font-size: 12px;
+    max-width: 120px;
+    height: 50px;
+  }
+  .overlay .popup-form__btn{
+    max-width: 120px;
+    font-size: 12px;
+    height: 50px;
+  }
+  .overlay .popup-form-header  {
+    font-size: 16px ;
+  }
+  .content .contact-form form button {
+    width: 120px;
+  }
+}
+@media (max-width: 400px){
+  .overlay .popup {
+    max-width: 200px;
+  }
+  .overlay .popup-form__input{
+    max-width: 120px;
+    height: 40px;
+    margin-left: 10%;
+  }
+  .overlay .popup-form__btn{
+    max-width: 120px;
+    height: 40px;
+    margin-left: 10%;
+  }
+  .overlay .popup-form-header  {
+    font-size: 14px;
+  }
+  .content .counter-block{
+    font-size: 12px;
+  }
+  .content .counter-block select{
+    margin-left: 15px;
+  }
+  .content footer .social .social-block{
+    width: 50px;
+    height: 50px;
+   }
+   .content footer .social .social-block a img{
+    margin-top: 13.5px;
+   }
+}
