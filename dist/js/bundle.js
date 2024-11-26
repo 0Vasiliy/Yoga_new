@@ -255,7 +255,7 @@ module.exports=tabs;
 /***/ ((module) => {
 
 function timer(){
-    let deadline = '2024-07-30';
+    let deadline = '2025-07-30';
 
     function getTimeRemaining(endtime) {                     // Функция определяет остаток времени
         let t = Date.parse(endtime) - Date.parse(new Date()),
